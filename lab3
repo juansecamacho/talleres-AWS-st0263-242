@@ -1,0 +1,10 @@
+#Hive y Spark
+
+##Ingresar al cluster
+
+1. Para ingresar al cluster abrimos la terminal local y nos ubicamos donde este la clave para entrar al cluster, ahi usamos el comando: 
+
+```bash
+ssh -i <your-key-pair.pem> hadoop@<master-public-dns-name>
+```
+
