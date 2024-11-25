@@ -88,7 +88,7 @@ use usernamedb;
 CREATE EXTERNAL TABLE HDI (id INT, country STRING, hdi FLOAT, lifeex INT, mysch INT, eysch INT, gni INT)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/datasets/onu/hdi/';
+LOCATION '/user/hadoop/datasets/onu';
 ```
 
 
