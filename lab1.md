@@ -72,7 +72,7 @@ hdfs dfs -put /local-path-to-cloned-repo/* /user/hadoop/datasets/gutenberg-small
 Ahora vamos a cargar los archivos en HDFS para que puedan ser utilizados por Hive
 
 ```bash
-hdfs dfs -put /root/st0263-242/bigdata/datasets/gutenberg-small/*.txt /user/hadoop/datasets/gutenberg-small/
+hdfs dfs -put /st0263-242/bigdata/datasets/gutenberg-small/*.txt /user/hadoop/datasets/gutenberg-small/
 ```
 
 ![image](https://github.com/user-attachments/assets/a826558f-666c-4284-b548-dabea5137ca4)
@@ -82,14 +82,14 @@ hdfs dfs -put /root/st0263-242/bigdata/datasets/gutenberg-small/*.txt /user/hado
 ## Copiar archivos a S3
 
 ```bash
-hadoop fs -put /root/st0263-242/bigdata/datasets/ s3://jscamachobucket/
+hadoop fs -put /st0263-242/bigdata/datasets/ s3://jscamachobucket/
 
 ```
 
 Y por ultimo enviamos los archivos a s3 por medio de Hadoop a traves de SSH
 
 ```bash
-hadoop fs -put /root/st0263-242/bigdata/datasets/ s3://jscamachobucket/
+hadoop fs -put /st0263-242/bigdata/datasets/ s3://jscamachobucket/
 ```
 
 
